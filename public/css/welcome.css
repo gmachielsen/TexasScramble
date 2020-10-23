@@ -1,0 +1,15 @@
+h4 {
+    color: rebeccapurple !important;
+    text-transform: uppercase;
+}
+
+.header {
+    position: relative;
+    background-image: url('heading/header-image.jpg');
+    background-size: cover;
+}
+
+.header .text {
+    position: absolute;
+    bottom: 30%;
+}
