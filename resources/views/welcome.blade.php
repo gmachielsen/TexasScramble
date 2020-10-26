@@ -23,12 +23,15 @@
     </head>
     <body class="antialiased">
             <nav>
+                    <div class="logo text-center px-6 center">
+                        <img src="logo/500_F_287005665_19go3Rha5RR1VZnS7JEHpG11nZ88KSmC.jpg" alt="">
+                    </div>
                 @if (Route::has('login'))
                     <div class="fixed top-0 right-0 px-6 py-4 sm:block">
                         @auth
                             <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                         @else
-                            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+                            <a href="{{ route('login') }}" class="login text-sm text-gray-700 underline">Login</a>
 
                             <!-- @if (Route::has('register'))
                                 <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
@@ -40,11 +43,24 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="header">
-                        <img src="{{ asset('heading/header-image.jpg')}}" class="card-img-top" alt="...">
+                        <!-- <img src="{{ asset('heading/PVGC-HERO-3.jpg')}}" class="card-img-top" alt="..."> -->
+                        <!-- <img src="{{ asset('heading/lo-sarno-QLdp9SGDf5Y-unsplash.jpg')}}" class="card-img-top" alt="..."> -->
+                        <img src="{{ asset('heading/noah-rosenfield-njAGLWiohCM-unsplash.jpg')}}" class="card-img-top" alt="...">
+
+                        <!-- <img src="{{ asset('heading/PVGC-HERO-3.jpg')}}" class="card-img-top" alt="..."> -->
+
                         <div class="text">
-                            <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In magni corrupti omnis amet earum doloremque tempora, voluptatibus accusamus magnam a sit nam mollitia perspiciatis atque, nesciunt quos explicabo eos placeat.</h4>
+                            <h4>Texas Scramble</h4>
+                        </div>
+                        <div class="button">
+                        <a class="a-button" type="button" href="#section2">fshsdf</a>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="section2">
+                    <h1>blaagaablavla</h1>
                 </div>
             </div>
 
