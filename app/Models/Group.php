@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Group extends Model
 {
     use HasFactory;
+    protected $guarded = [];
+
+    public function players()
+    {
+        return $this->hasMany(Player::class);
+
+    }
 }
+
+

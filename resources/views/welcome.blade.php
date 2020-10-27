@@ -53,7 +53,7 @@
                             <h4>Texas Scramble</h4>
                         </div>
                         <div class="button">
-                        <a class="a-button" type="button" href="#section2">fshsdf</a>
+                        <a class="a-button" type="button" href="#section2">Bekijk meer</a>
                         </div>
                     </div>
                 </div>

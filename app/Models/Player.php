@@ -23,4 +23,9 @@ class Player extends Model
             return $q->where('name', 'like', "%$search%");
         });
     }
+
+    public function group()
+    {
+        return $this->belongsTo(Group::class);
+    }
 }

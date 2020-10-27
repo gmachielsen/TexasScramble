@@ -55,7 +55,7 @@
                                     <th>Gender</th>
                                     <th>Name</th>
                                     <th>Handicap</th>
-                                    <th></th>
+                                    <th>Action</th>
                                 </tr>
                                 </thead>
 

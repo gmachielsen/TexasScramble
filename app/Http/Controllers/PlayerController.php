@@ -4,14 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Player;
-
+use App\Http\Controllers\DB;
 class PlayerController extends Controller
 {
     public function index()
     {
-        $players = Player::whenSearch(request()->search)->paginate(2);
-
-        return view('dashboard.players.index', compact('players'));
+        $players = Player::whenSearch(request()->search)->paginate(10);
+        return view('dashboard.players.index', ['players' => $players]);
     }
 
     

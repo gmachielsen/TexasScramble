@@ -36,5 +36,8 @@ Route::prefix('dashboard')->name('admin.')->middleware('admin')->group(function(
 
 
     Route::get('/groups', [GroupController::class, 'index'])->name('groups.index');
+    Route::get('/groups/create', [GroupController::class, 'create'])->name('groups.create');
+    Route::post('/flights/store', [GroupController::class, 'store'])->name('flights.store');
+
 
 });
