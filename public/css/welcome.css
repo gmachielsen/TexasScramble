@@ -11,9 +11,9 @@ body {
 }
 
 .login {
-    text-transform: uppercase;
-    font-family: Merriweather, Georgia, serif;
-    font-weight: 400;
+    text-transform: uppercase!important;
+    font-family: Merriweather, Georgia, serif!important;
+    font-weight: 400!important;
 }
 
 .logo img {
@@ -30,6 +30,8 @@ body {
     color: white;
     top: 0;
     margin-top: 10%;
+    text-shadow: 1px 0 0 gray, -1px 0 0 gray, 0 1px 0 gray, 0 -1px 0 gray;
+
 }
 
 
@@ -196,4 +198,8 @@ img {
     h4 {
         font-size: 12px;
     }
+}
+
+footer {
+    background-color: black;
 }
